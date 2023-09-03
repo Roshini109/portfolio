@@ -30,6 +30,9 @@ export default function Intro() {
                     you'll find me expressing my creativity through pencil drawings. 
                     Explore my work, and let's connect to bring your ideas to life.
                     </p>
+
+                <button className="downloadCv">Download CV</button>
+
             </div>
              
         </div>

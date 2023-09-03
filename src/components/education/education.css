@@ -1,0 +1,85 @@
+.e{
+    height: 100vh;
+    margin: 0 50px;
+}
+
+.eContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.eTitle{
+    font-weight: 400;
+}
+
+.eWrapper{
+    display: flex;
+}
+
+.eTop{
+    margin: 20px 0;
+}
+
+.academicYear{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.academicType{
+    margin-bottom: 10px;
+    color: rgb(135, 135, 135); 
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.eLeft, .eCenter, .eRight{
+    flex: 1;
+    margin: 0 20px;
+}
+
+.eStyle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.styleCircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #59b256;
+    margin-right: 10px;
+}
+
+.eWrapHr{
+    width: 100%;
+    height: 5px;
+    background-color: #59b256;
+    border: none;
+}
+
+.eBottom{
+    margin: 20px 0;
+}
+
+.institute{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.province{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(101, 101, 101) ;
+}
+
+.eduDesc{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(101, 101, 101) ;
+}

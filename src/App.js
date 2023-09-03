@@ -1,6 +1,7 @@
 import Contact from "./components/contact/Contact";
+import Education from "./components/education/Education";
 import Intro from "./components/intro/Intro";
-import About from "./components/intro/about/About";
+import About from "./components/about/About";
 import Productlist from "./components/productList/Productlist";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
@@ -17,6 +18,7 @@ function App() {
       <Toggle/>
       <Intro/>
       <About/>
+      <Education/>
       <Productlist/>
       <Contact/>
     </div>
