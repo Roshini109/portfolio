@@ -6,6 +6,7 @@ import Productlist from "./components/productList/Productlist";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
+import Skills from "./components/skills/Skills";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Intro/>
       <About/>
       <Education/>
+      <Skills/>
       <Productlist/>
       <Contact/>
     </div>

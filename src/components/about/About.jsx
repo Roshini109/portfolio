@@ -12,7 +12,7 @@ export default function About() {
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
             <p className="a-sub" align="justify">I'm an undergraduate student at <b> Sabaragamuwa University of Sri Lanka</b>. I'm pursuing a degree in 
-            <b>'Bsc Hons in Computing and Information Systems'</b>. My heart lies in coding, particularly in the realm of frontend development. 
+            <b> 'Bsc Hons in Computing and Information Systems'</b>. My heart lies in coding, particularly in the realm of frontend development. 
             I'm fascinated by the art of crafting beautiful, user-friendly interfaces that engage and inspire.</p>
             <p className="a-desc" align="justify">
                 Outside the world of programming, I have a creative side that finds expression through pencil drawings. It's a hobby I've 
