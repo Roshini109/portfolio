@@ -38,10 +38,8 @@ export default function Intro() {
         </div>
         <div className="i-right">
             <div className="i-bg"></div>
-            <img src="/assets/p1.png" alt="" className="i-img" />
+            <img src="./portfolio/assets/p1.png" alt="" className="i-img" />
         </div>
     </div>
   )
 }
-
-

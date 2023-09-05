@@ -1,10 +1,10 @@
 export const products = [
     {
         id: 1,
-        img: "/assets/web1.png",
+        img: "./portfolio/assets/web1.png",
     },
     {
         id: 1,
-        img: "/assets/web2.png",
+        img: "./portfolio/assets/web2.png",
     },
 ];

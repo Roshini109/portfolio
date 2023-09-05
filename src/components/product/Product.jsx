@@ -8,9 +8,9 @@ export default function Product({img}) {
         <div className="pCircle"></div>
         <div className="pCircle"></div>
       </div>
-      <a href="http://lama.dev" target="_blank" rel="noreferrer">
+      {/* <a href="" target="_blank" rel="noreferrer"> */}
         <img src={img} alt="" className="pImg" />
-      </a>
+      {/* </a> */}
     </div>
   )
 }

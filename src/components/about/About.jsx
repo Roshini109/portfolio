@@ -6,7 +6,7 @@ export default function About() {
         <div className="a-left">
             <div className="a-card bg"></div>
             <div className="a-card">
-                <img src="/assets/po1.jpg" alt="" className="a-img" />
+                <img src="./portfolio/assets/po1.jpg" alt="" className="a-img" />
             </div>
         </div>
         <div className="a-right">
