@@ -197,3 +197,105 @@ nav ul li a:hover::after{
     margin-bottom: 50px;
 }
 
+
+.scontainer .skillBox{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.skillBox .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.skillBox .skillBar{
+    width: 100%;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background:  rgb(228, 238, 241);
+}
+
+.skillBar .skillPer{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background:  rgb(0, 141, 183);
+    border-radius: 6px;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skillPer.css{
+    width: 80%;
+    animation-delay: 0.1s;
+}
+
+.skillPer.react{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+
+.skillPer.js{
+    width: 70%;
+    animation-delay: 0.3s;
+}
+
+.skillPer.sql{
+    width: 80%;
+    animation-delay: 0.1s;
+}
+
+.skillPer.java{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+
+.skillPer.node{
+    width: 30%;
+    animation-delay: 0.3s;
+}
+
+.skillPer.figma{
+    width: 70%;
+    animation-delay: 0.1s;
+}
+
+.skillPer.ps{
+    width: 40%;
+    animation-delay: 0.2s;
+}
+
+.skillPer.ils{
+    width: 40%;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+
+    100%{
+        
+        opacity: 1;
+    }
+}
+
+.skillPer .toolTip{
+    position: absolute;
+    right: -14px;
+    background:  rgb(29, 64, 75);
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
