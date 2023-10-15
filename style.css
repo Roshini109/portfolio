@@ -30,10 +30,11 @@ body{
 
 nav{
     padding: 0 20px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     position: fixed;
     background-color: black;
@@ -366,7 +367,7 @@ nav ul li a:hover::after{
 
 #portfolio{
     padding: 50px 0;
-    scroll-margin-top: 20px;
+    scroll-margin-top: 60px;
 }
 
 .workList{
@@ -890,6 +891,10 @@ nav .fa-solid{
     .subtitle{
         font-size: 40px;
 
+    }
+
+    #about{
+        scroll-margin-top: 40px;
     }
 
     .aboutCol1, .aboutCol2{
