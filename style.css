@@ -397,3 +397,207 @@ nav ul li a:hover::after{
     display: block;
     transition: all 10s ease;
 }
+
+
+
+.work img:hover{
+    transform: translateY(-70%);
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(15, 123, 155));
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: rgb(15, 123, 155);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    bottom:0;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid rgb(15, 123, 155);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: rgb(15, 123, 155);
+}
+
+/*-------------------------------------Volunteering--------------------------------*/
+#volunteering{
+    padding: 30px 0;
+    scroll-margin-top: 100px;
+}
+
+.memberLogo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.servicesList.vol div p{
+    color: rgb(178, 205, 213);
+    font-weight: 500;
+}
+
+.servicesList.vol .fa-solid{
+    font-size: 15px;
+}
+
+.servicesList.vol div a{
+    color: #ababab;
+}
+
+
+/*---------------------------------------Interests-------------------------------*/
+
+#interests{
+    display: flex;
+    align-items: center;
+    scroll-margin-top: 110px;
+}
+#interests .container{
+    position: relative;
+    background:#080808 ;
+    box-shadow: 0 30px 50px  rgb(29, 64, 75);
+    top: 50%;
+    padding: 50px;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    flex-basis: 40%;
+
+}
+#interests h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 10%;
+    flex-basis: 5%;
+}
+
+#intSlide{
+    width: max-content;
+    margin-top: 50px;
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    /* box-shadow: 0 30px 50px rgb(29, 64, 75); */
+}
+
+.item:nth-child(1),
+.item:nth-child(2){
+    left: 0;
+    top: 0;
+    transform: translate(0,0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+
+.item:nth-child(3){
+    left: 90%;
+}
+
+.item:nth-child(4){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(5){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(6){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(7){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(8){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(9){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(10){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(11){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(12){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(13){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(14){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(15){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(16){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(17){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(18){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(19){
+    left: calc(90% + 220px);
+}
