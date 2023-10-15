@@ -601,3 +601,202 @@ nav ul li a:hover::after{
 .item:nth-child(19){
     left: calc(90% + 220px);
 }
+
+
+.item:nth-child(20){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(21){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(22){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(23){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(24){
+    left: calc(90% + 220px);
+}
+
+.item:nth-child(n+25){
+    left: calc(90% + 220px);
+    opacity: 0;
+}
+
+.intContent{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    padding: 0;
+    color: rgb(18, 35, 40);
+    transform: translate(0, -50%);
+    font-weight: 500;
+    display: none;
+    font-family: system-ui;
+}
+
+.item:nth-child(2) .intContent{
+    display: block;
+    z-index: 11111;
+}
+
+.intName{
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 1 forwards;
+}
+
+.intDesc{
+    margin: 20px 0;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.3s 1 forwards;
+}
+
+.item button{
+    padding: 10px 20px;
+    border: none;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.6s 1 forwards;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover{
+    background-color: #262626;
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes showcontent{
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+        filter: blur(33px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+        filter: blur(0);
+    }
+}
+
+.buttons{
+    position: absolute;
+    bottom: 30px;
+    z-index: 222222;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid  rgb(29, 64, 75);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color:  rgb(72, 105, 114);
+}
+
+/*------------------------------Achievements-------------------------*/
+
+
+
+/*----------------------------Contact Me-------------------------*/
+
+#contact{
+    margin-top: 150px;
+}
+.contactLeft{
+    flex-basis: 35%;
+}
+
+.contactRight{
+    flex-basis: 60%;
+}
+
+.contactLeft p{
+    margin-top: 30px;
+
+}
+
+.contactLeft p i{
+    color:  rgb(15, 123, 155);
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.socialIcon{
+    margin-top: 30px;
+}
+
+.socialIcon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:  #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.socialIcon a:hover{
+    color:  rgb(15, 123, 155);
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background-color:  rgb(15, 123, 155);
+}
+
+.contactRight form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 16px; 
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/*-----------------------------csss for small screen--------------------*/
+nav .fa-regular{
+    display: none;
+}
+
+nav .fa-solid{
+    display: none;
+}
