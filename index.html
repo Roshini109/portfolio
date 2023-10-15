@@ -539,3 +539,111 @@
             </div>
         </div>
     </div>
+
+
+    <!----------------------------Contact Me--------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactLeft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jbrnd21@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +94 702470932</p>
+                    <div class="socialIcon">
+                        <a href="https://www.linkedin.com/in/roshini-dias/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Roshini109" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/roshini.diaz?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/roshini_diaz" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" download="images/myCV.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactRight">
+                    <form id="contact-form" role="form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Subject" placeholder="Subject">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" onclick="sendMail()" value="Send" id="sendButton">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Roshini Dias .</p>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks=document.getElementsByClassName("tabLinks");
+        var tabContents=document.getElementsByClassName("tabContents");
+
+        function opentab(tabName){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("activeLink");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("activeTab");
+            }
+
+            event.currentTarget.classList.add("activeLink");
+            document.getElementById(tabName).classList.add("activeTab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        function sendMail() {
+          event.preventDefault(); // Prevent the default form submission behavior
+      
+          // Get the form data
+          const form = document.getElementById('contact-form');
+          const name = form.Name.value;
+          const email = form.Email.value;
+          const subject = form.Subject.value;
+          const message = form.Message.value;
+      
+          // Send the email using EmailJS
+          emailjs.send('service_xxccrka', 'template_35lfjm3', {
+            to_email: email,
+            from_name: name,
+            subject: subject,
+            message_html: message,
+          }).then(
+            function (response) {
+              console.log('Email sent successfully:', response);
+              alert('Your email has been sent successfully!');
+              form.reset(); // Clear the form fields
+            },
+            function (error) {
+              console.log('Email send error:', error);
+              alert('There was an error sending your email. Please try again later.');
+            }
+          );
+        }
+      </script>
+
+      <script>
+            document.getElementById('next').onclick = function(){
+                let lists = document.querySelectorAll('.item');
+                document.getElementById('intSlide').appendChild(lists[0]);
+            }
+            document.getElementById('prev').onclick = function(){
+                let lists = document.querySelectorAll('.item');
+                document.getElementById('intSlide').prepend(lists[lists.length - 1]);
+            }
+      </script>
+      
+</body>
+</html>
