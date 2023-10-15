@@ -37,7 +37,7 @@ nav{
     flex-wrap: wrap;
     position: fixed;
     background-color: black;
-    top: 0;
+    top: 0px;
     z-index: 999;
 }
 
