@@ -845,6 +845,10 @@ nav .fa-solid{
         justify-content: space-between;
     }
 
+    .container{
+        width: 100%;
+    }
+
     nav .fa-regular{
         display: block;
         font-size: 25px;
