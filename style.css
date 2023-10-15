@@ -723,6 +723,11 @@ nav ul li a:hover::after{
 }
 
 /*------------------------------Achievements-------------------------*/
+#achievements{
+    margin: 150px 0;
+    scroll-margin-top: 120px;
+}
+
 
 
 
